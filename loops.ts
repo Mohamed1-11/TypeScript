@@ -23,9 +23,25 @@ for (let i = 0; i < 2; i++) // outer loop دى كده اللوب الكبيرة 
     console.log(fruit);
   }
 
-  
 
-  
+  let i=0
+    while(i<friuts2.length)
+    {
+        console.log("While Loop Fruit " + (i + 1) + ": " + friuts2[i]);
+        if(i==2)
+            {break;}
+        
+        i++ // مهم جدا عشان ميعملش لوب مالانهاية عكس فور لوب بيتحط فى الاول
+    }
+    
+    
+    // do...while loop
+    i=0
+    do  {
+        console.log("do While Loop Fruit " + (i + 1) + ": " + friuts2[i]);
+        i++
+        } while(i < 0); // هنا عكس الوايل لوب عشان بيشتغل مرة واحدة على الاقل حتى لو الشرط غلط
 
+    
 
 
