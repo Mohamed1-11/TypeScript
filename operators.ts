@@ -11,7 +11,7 @@ firstNumber < secondNumber
 firstNumber >= secondNumber
 firstNumber <= secondNumber
 let itstrue = true
-let istfalse = false  
+let istfalse = false
 let isAnd = itstrue && istfalse;  // AND operator 
 let isOr = itstrue || istfalse;   // OR operator
 console.log("AND operator result: " + isAnd);
